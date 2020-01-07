@@ -11,7 +11,7 @@ for i in $dir
 do
   if [[ -d $i ]]; then
     cd $i
-    echo "==> [$i]"
+    echo "==> [$i] --> [`git remote get-url --push origin`]"
     ## 获取 git 状态信息
     stat=`git remote update && git status`
     if [[ "$?" -ne "0" ]]; then
