@@ -4,3 +4,5 @@
   * 参考 [gitstatus.py](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git-prompt/gitstatus.py)，更优雅地解析 git status.
   * tip : `alias git='LANG=en_US git'`, 强制使 git 显示语言为英文,部分系统优先采用 `alias git='LC_ALL=en_GB git'`
   * 继续学习 shell, 学习地址 [shellscript.sh](https://www.shellscript.sh/external.html)
+  * 整理 toys.sh
+
