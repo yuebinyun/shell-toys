@@ -39,7 +39,7 @@ for i in ${dir}; do
           echo "$line"
         fi
       done <$todo
-    else$version"
+    else
       echo "[ERROR] no update.md file..."
       echo ""
     fi
